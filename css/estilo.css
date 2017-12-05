@@ -25,12 +25,9 @@ nav{
 	left: 0;
 	right: 0;
 	margin-top: 0px;
-/*	margin-left: 20px;
-	margin-right: 20px;*/
 }
 
-.parallax{
-	/* Create the parallax scrolling effect */
+.parallax{/*imagem fixa*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +35,7 @@ nav{
 }
 
 #black-overlay{
-	background-color: #e8e5e5c9;
+	background-color: #f7f5f5e0;
 	opacity: 0.0;
 	position: absolute;
 	top: 0;
