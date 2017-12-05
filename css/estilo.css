@@ -29,6 +29,14 @@ nav{
 	margin-right: 20px;*/
 }
 
+.parallax{
+	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #black-overlay{
 	background-color: #e8e5e5c9;
 	opacity: 0.0;
