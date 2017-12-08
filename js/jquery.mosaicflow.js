@@ -40,15 +40,16 @@
 		});
 	};
 
+	//PARTE IMPORTANTE DO CODIGO, ONDE HÁ AS CONFIGURAÇÕES GERAIS//
 	$.fn.mosaicflow.defaults = {
-		itemSelector: '> *',
-		columnClass: 'mosaicflow__column',
-		minItemWidth: 320,
-		minColumns: 2,
-		itemHeightCalculation: 'auto',
-		threshold: 14
+		itemSelector: '> *', //NUSEI
+		columnClass: 'mosaicflow__column', //Classe principal das colunas da galeria (algo interno do script)
+		minItemWidth: 320, //Largura mínima das fotos da galeria
+		minColumns: 2, //Quantidade de colunas mínima 
+		itemHeightCalculation: 'auto', //Altura automatica, para não ser mudar para 'attribute'
+		threshold: 14 //NUSEI
 	};
-
+	//__________________________________________//
 	function Mosaicflow(container, options) {
 		this.container = container;
 		this.options = options;

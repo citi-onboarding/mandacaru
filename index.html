@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mandacaru Aerodesign</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--CSS PRINCIPAL-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css"> <!--CSS AUXILIAR DO CARROSSEL-->
 </head>
+
+
 <body>
+
+
+	<!--BARRA DE NAVEGAÇÃO-->
 	<nav>
 		<div id="black-overlay"></div>
 		<div id="bloco">
@@ -29,8 +35,13 @@
 		</div>
 	</nav>
 
-	<div class="bannerImg parallax"></div>
 
+
+	<div class="bannerImg parallax"></div> 	<!--Banner do site-->
+
+
+
+	<!--QUEM SOMOS-->
 	<div class="conteudo">
 		<h3>QUEM SOMOS</h3>
 		<p>Desde a criação em 2000, a equipe se oficializou como projeto de extensão do CTG com o objetivo de participar da competição estudantil SAE Brasil Aerodesign, que tem como principal meta o desenvolvimento de uma aeronave rádio controlada. Embora tenhamos um grande enfoque em engenharia, atualmente estudantes de toda a UFPE podem ingressar no grupo, fazendo com que a multidisciplinaridade do projeto seja constantemente incentivada e trabalhada. </p>
@@ -41,8 +52,13 @@
 		
 	</div>
 
-	<div id="fundoImg1" class="parallax"></div>
 
+
+	<div id="fundoImg1" class="parallax"></div> <!--Imagem de fundo nº2-->
+
+
+
+    <!--A COMPETIÇÃO-->
 	<div class="conteudo-2">
 		<h3>A COMPETIÇÃO</h3>
 		<div class="row">
@@ -67,8 +83,14 @@
 		</div>	
 	</div>
 
-	<div id="fundoImg2" class="parallax"></div>
 
+
+	<div id="fundoImg2" class="parallax"></div> <!--Imagem de fundo nº3-->
+
+
+
+	<!--HITÓRIA-->
+	<!--Cada marco está como uma "li", as labels são as legendas-->
 	<div class="conteudo-3">
 		<h3>HISTÓRIA</h3>
 		<ul id=timeline>
@@ -124,8 +146,13 @@
 		</ul>
 	</div>
 
-	<div id="fundoImg3" class="parallax"></div>
+
+
+	<div id="fundoImg3" class="parallax"></div> <!--Imagem de fundo nº3-->
 	
+
+
+	<!--ÁREAS-->
 	<div class="conteudo-4">
 		<h3>ÁREAS</h3>
 		<span class="linha">
@@ -191,10 +218,20 @@
 	    </span>
 	</div>
 
-	<div id="fundoImg4" class="parallax"></div>
+
+
+	<div id="fundoImg4" class="parallax"></div> <!--Imagem de fundo nº4-->
 	
+
+
+	<!--EQUIPE-->
 	<div class="conteudo-5">
 		<h3>EQUIPE</h3>
+		<!--Classe Owl-theme e Owl-carousel são as principais-->
+		<!--As configurações delas (para o estilo) estão no estilo.css-->
+		<!--As configurações do plugin (quantidade de icones por tela...etc) estão no owl.carousel.mim.js-->
+		<!--O script cria uma classe chamada owl-iten pra cada div dentro da div principal-->
+		<!--Você pode configurar essa classe também no estilo.css-->
 		<div class="owl-theme owl-carousel">
             <div>
             	<img src="css/img/membros/BrendaConrado.jpg">
@@ -311,6 +348,16 @@
 		</div>
 	</div>
 
+
+
+
+
+
+
+	<!--GALERIA-->
+	<!--Classes clearfix e mosaicflow são as principais-->
+	<!--Classe mosaicflow__item representa cada imagem-->
+	
 	<div class="galeria">
 		<div class="clearfix mosaicflow">
 			
@@ -351,17 +398,26 @@
 			<div class="mosaicflow__item">
 				<img src="css/img/galeria/10.jpg" alt="">
 			</div>
+
 		</div>
 	</div>
 
+
+
+
+
+
+	<!--PATROCINADORES-->
 	<div class=conteudo-6>
 		<h3>PATROCINADORES</h3>
 	</div>
 
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mosaicflow.js"></script>
+
+	<!--SCRIPTS-->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script><!--JQUERY-->
+	<script type="text/javascript" src="js/script.js"></script><!--SCRIPT PRINCIPAL-->
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script><!--SCRIPT DO CASSOSSEL-->
+    <script type="text/javascript" src="js/jquery.mosaicflow.js"></script><!--SCRIPT DO MOSAICO-->
     
 
 </body>
