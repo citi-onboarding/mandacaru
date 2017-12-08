@@ -514,6 +514,25 @@ nav{
 #circulo5{
    background-color: #083308;
 }
+
+.galeria{
+  position: relative;
+  height: 300px;
+}
+
+.mosaicflow__column {
+  float:left;
+  }
+.mosaicflow__item img {
+  display:block;
+  width:100%;
+  height:auto;
+  }
+.galeria{
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
 @media only screen and (min-width: 1200px){
   .owl-theme .owl-item div .legendaequipe{position:relative;height:60px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 63px;}
 }
@@ -573,6 +592,8 @@ nav{
      margin: auto;
   }
 }
+
+
 @media only screen and (max-width: 768px) {
   .owl-theme .owl-item div {height: 220px;}
   .owl-theme .owl-item div img{height:220px; width: 100%;}

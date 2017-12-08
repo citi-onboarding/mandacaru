@@ -6,4 +6,3 @@ $(function(){
 	$('#black-overlay').css('opacity',currentScrollTop/$('#black-overlay').height());
 		});
 })(jQuery);
-  
