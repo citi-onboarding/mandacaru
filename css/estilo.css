@@ -333,6 +333,29 @@ nav{
    font-size: 25px;
    font-weight: normal;
 }
+.galeria{
+  display: table;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.conteudo-6{
+   font-size: 13.5px;
+   font-family: DidaticGothic;
+   width: 100%;
+   text-align: center;
+   background: #F9F9F9;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   z-index: 1;
+}
+.conteudo-6 > h3{ 
+   text-align: center;
+   margin: 0;
+   padding-bottom: 25px;
+   font-size: 25px;
+   font-weight: normal;
+}
 .icone{
   display: inline-block;
   width: 270px;
@@ -528,11 +551,7 @@ nav{
   width:100%;
   height:auto;
   }
-.galeria{
-  position: relative;
-  height: 600px;
-  width: 100%;
-}
+
 @media only screen and (min-width: 1200px){
   .owl-theme .owl-item div .legendaequipe{position:relative;height:60px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 63px;}
 }
