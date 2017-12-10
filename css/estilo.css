@@ -709,6 +709,7 @@ nav ul{
   .linha-footer{
     width: 100%;
     display: inline-flex;
+    margin-top: 7px;
   }
 
   .contato{
