@@ -620,6 +620,36 @@ nav ul{
 
 /*___________FIM DA CONFIGURAÇÃO DO CARROSSEL___________*/
 
+/*FOOTER*/
+.footer{
+  display: inline-flex;
+  background-color: #232222;
+  color: #f9f9f9;
+  font-size: 12px;
+  font-family: DidaticGothic;
+  width: 100%;
+}
+
+.copyright{
+  width: 30%;
+}
+
+.contato{
+  height: 100%;
+  width: 40%;
+}
+
+/* .endereco{
+  height: 100%;
+  width: 30%;
+} */
+
+.midia{
+  height: 100%;
+  width: 30%;
+  display: inline;
+  justify-content: center;
+}
 
 /*REPONSIVIDADE DESSA BAGAÇA :3 */;
 @media only screen and (min-width: 1200px){
