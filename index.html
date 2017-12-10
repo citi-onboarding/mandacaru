@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mandacaru Aerodesign</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--CSS PRINCIPAL-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/animate.css"> <!--CSS AUXILIAR DO CARROSSEL-->
 </head>
 
@@ -14,26 +16,29 @@
 
 
 	<!--BARRA DE NAVEGAÇÃO-->
-	<nav>
+	<div class="navbar">
 		<div id="black-overlay"></div>
-		<div id="bloco">
-			<div class="logoImg">
-				<img src="css/img/logo1.png" width="83" height="83">
-			</div>
 
-			<ul class="links">
-				<li><a href="index.html" style="margin-right: 50px">INÍCIO</a></li>
-
-				<li><a href="index.html" style="margin-right: 50px">SOBRE</a></li>
-				
-				<li><a href="index.html" style="margin-right: 50px">EQUIPE</a></li>
-				
-				<li><a href="index.html" style="margin-right: 50px">GALERIA</a></li>
-				
-				<li><a href="index.html">PATROCINADORES</a></li>
-			</ul>
+		<div class="logoImg">
+			<img src="css/img/logo1.png" width="83" height="83">
 		</div>
-	</nav>
+
+		<nav>
+			<ul>
+				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">INÍCIO</a></li>
+
+				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">SOBRE</a></li>
+				
+				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">EQUIPE</a></li>
+				
+				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">GALERIA</a></li>
+				
+				<li class="notshowonmobile" style="margin-right: 20px;"><a href="index.html">PATROCINADORES</a></li>
+
+				<li class="showonmobile" style="margin-right: 20px;"><a href="javascript:void(0);" id="menumobile"><i class="material-icons">menu</i></a></li>
+			</ul>
+		</nav>
+	</div>
 
 
 
@@ -412,6 +417,23 @@
 		<h3>PATROCINADORES</h3>
 	</div>
 
+	<!-- MENU RESPONSIVO -->
+	<div class="menu">
+		<div class="closemenu"><a href="javascript:void(0);" id="closemenubtn"><i class="material-icons">close</i></a></div>
+		<div>
+		<ul>
+			<li class="" style="padding-bottom: 4px;"><a href="index.html" style="margin-right: 50px">INÍCIO</a></li>
+
+			<li class="" style="padding-bottom: 4px;"><a href="index.html" style="margin-right: 50px">SOBRE</a></li>
+				
+			<li class="" style="padding-bottom: 4px;"><a href="index.html" style="margin-right: 50px">EQUIPE</a></li>
+				
+			<li class="" style="padding-bottom: 4px;"><a href="index.html" style="margin-right: 50px">GALERIA</a></li>
+				
+			<li class="" style="margin-right: 20px;"><a href="index.html">PATROCINADORES</a></li>
+			</ul>
+		</div>
+	</div>
 
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script><!--JQUERY-->
