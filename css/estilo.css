@@ -32,7 +32,7 @@ body{
   border-radius: 12px;
   right: 5px;
 
-  font-size: 13.5px;
+  font-size: 14px;
   font-family: DidaticGothic;
   color: #393434;
 }
@@ -621,41 +621,147 @@ nav ul{
 /*___________FIM DA CONFIGURAÇÃO DO CARROSSEL___________*/
 
 /*FOOTER*/
+.footer-resp{
+  display: none;
+}
+
 .footer{
   display: inline-flex;
   background-color: #232222;
   color: #f9f9f9;
-  font-size: 12px;
+  font-size: 11.7px;
   font-family: DidaticGothic;
   width: 100%;
+  height: 13%;
 }
 
 .copyright{
-  width: 30%;
+  width: 25%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contato{
   height: 100%;
-  width: 40%;
+  width: 50%;
+  display: block;
+  text-align: center;
+  align-content: center;
 }
 
-/* .endereco{
-  height: 100%;
-  width: 30%;
-} */
+#email{
+  width: 100%;
+  height: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#endereco{
+  width: 100%;
+  height: 50%;
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+}
 
 .midia{
-  height: 100%;
-  width: 30%;
-  display: inline;
+  width: 25%;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
+}
+
+#fb{
+  padding-right: 10px;
+}
+
+#insta{
+
+}
+
+#linkedin{
+  padding-left: 10px;
 }
 
 /*REPONSIVIDADE DESSA BAGAÇA :3 */;
 @media only screen and (min-width: 1200px){
   .owl-theme .owl-item div .legendaequipe{position:relative;height:60px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 63px;}
 }
-@media only screen and (max-width: 767px) { /*ajeitar responsividade pra celular*/
+
+@media only screen and (max-width: 684px){/*responsividade do footer*/
+  .footer{
+    display: none;
+  }
+
+  .footer-resp{
+    display: block;
+    background-color: #232222;
+    color: #f9f9f9;
+    font-size: 11.7px;
+    font-family: DidaticGothic;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .linha-footer{
+    width: 100%;
+    display: inline-flex;
+  }
+
+  .contato{
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-content: center;
+  }
+
+  #email{
+    width: 100%;
+    height: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+
+  #endereco{
+    width: 100%;
+    height: 50%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .copyright{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .midia{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #fb{
+    padding-right: 10px;
+  }
+
+  #insta{
+
+  }
+
+  #linkedin{
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px){ /*ajeitar responsividade pra celular*/
   
   #black-overlay{
     height: 100%;
