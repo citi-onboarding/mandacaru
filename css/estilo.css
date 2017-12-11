@@ -291,7 +291,6 @@ nav ul{
 .conteudo-6 > h3{ 
    text-align: center;
    margin: 0;
-   padding-bottom: 25px;
    font-size: 25px;
    font-weight: normal;
 }
@@ -502,7 +501,6 @@ nav ul{
 /*FIM DO CSS GERAL*/
 
 /* CUSTOMIZAÇÃO OWL CAROUSEL */
-
 .owl-theme .owl-item div{
   height:auto; width: auto;
 }
@@ -578,6 +576,33 @@ nav ul{
   }
 }
 
+#carousel2 .owl-item{
+  position: relative;
+  height: auto;
+  width: auto;
+  display: block;
+  left: 10px;
+  top:-35px;
+}
+
+#carousel2 .owl-stage-outer{
+  max-height: 300px;
+}
+#carousel2 .owl-dots .owl-dot{display:inline-block; zoom:1; position:relative;bottom: 20px; padding-top: 0px;top:-35px;}
+#carousel2 .owl-dots .owl-dot span{width:10px; height:10px; margin:5px 7px; background:#acaaaa; display:block;-webkit-backface-visibility:visible;-webkit-transition:opacity 200ms ease;-moz-transition:opacity 200ms ease;-ms-transition:opacity 200ms ease;-o-transition:opacity 200ms ease;transition:opacity 200ms ease;-webkit-border-radius:30px;-moz-border-radius:30px; border-radius:30px}
+#carousel2 .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#5ec964;}
+
+#carousel2 .owl-item div{
+  position: relative;
+  height: 300px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+#carousel2 .owl-item div img{
+  position: relative;
+  height: auto;
+}
 /*  AUTO HEIGHT DO PLUGUIN */
 
 .owl-height {
@@ -629,6 +654,7 @@ nav ul{
   -moz-background-size: contain; -o-background-size: contain; background-size: contain; -webkit-transition: opacity 400ms ease;-moz-transition: opacity 400ms ease; -ms-transition: opacity 400ms ease;-o-transition: opacity 400ms ease; transition: opacity 400ms ease;}
 .owl-carousel .owl-video-frame {position: relative; z-index: 1;}
 
+
 /*___________FIM DA CONFIGURAÇÃO DO CARROSSEL___________*/
 
 /*CONTATO*/
@@ -655,10 +681,6 @@ nav ul{
 .contato-form h3{
   font-size: 25px;
   font-weight: normal;
-}
-
-.contato-form form{
-  
 }
 
 .adjust{
@@ -739,6 +761,26 @@ nav ul{
 
 /*REPONSIVIDADE DESSA BAGAÇA :3 */;
 @media only screen and (min-width: 1200px){
+}
+@media only screen and (max-width: 640px){
+  #carousel2 .owl-item img{
+    position: relative;
+    height: 80px;
+    width: 100px;
+    display: block;
+    left: -5px;
+  }
+  #carousel2 .owl-item{
+    max-height: 165px;
+    top:-55px;
+  }
+  #carousel2 .owl-dots .owl-dot{padding-top: 0px;top:15px;}
+
+}
+@media only screen and (max-width: 780px){
+  #carousel2 .owl-item{
+    left: 20px;
+  }
 }
 @media only screen and (max-width: 1100px){
   #icone4{
