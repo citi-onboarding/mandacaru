@@ -503,7 +503,7 @@ nav ul{
 /* CUSTOMIZAÇÃO OWL CAROUSEL */
 
 .owl-theme .owl-item div{
-  height:260px; width: 100%;
+  height:auto; width: auto;
 }
 
 .owl-theme .owl-item div p{
@@ -511,7 +511,7 @@ nav ul{
 }
 
 .owl-theme .owl-item div img{
-  height:210px;
+  height:190px;
   width: 100%;
   border-radius: 2%;
 }
@@ -546,7 +546,7 @@ nav ul{
 
 /* PAGINACAO */
 
-.owl-theme .owl-dots .owl-dot{display:inline-block; zoom:1; *display:inline; position:relative;padding-top: 20px}
+.owl-theme .owl-dots .owl-dot{display:inline-block; zoom:1; position:relative;bottom: 30px;}
 .owl-theme .owl-dots .owl-dot span{width:10px; height:10px; margin:5px 7px; background:#acaaaa; display:block;-webkit-backface-visibility:visible;-webkit-transition:opacity 200ms ease;-moz-transition:opacity 200ms ease;-ms-transition:opacity 200ms ease;-o-transition:opacity 200ms ease;transition:opacity 200ms ease;-webkit-border-radius:30px;-moz-border-radius:30px; border-radius:30px}
 .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#5ec964;}
 
@@ -697,7 +697,6 @@ nav ul{
 
 /*REPONSIVIDADE DESSA BAGAÇA :3 */;
 @media only screen and (min-width: 1200px){
-  .owl-theme .owl-item div .legendaequipe{position:relative;height:60px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 63px;}
 }
 @media only screen and (max-width: 1100px){
   #icone4{
@@ -968,7 +967,19 @@ nav ul{
     padding-left: 10px;
   }
 }
-
+@media only screen and (max-width: 370px){
+  .owl-theme .owl-item div{font-size: 11.5px;}
+  .legendaequipe .função{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 290px){
+  .owl-theme .owl-dots {position:relative;top: -60px;}
+  .owl-theme .owl-item div{font-size: 14px;}
+  .legendaequipe .função{
+    font-size: 13px;
+  }
+}
 @media only screen and (max-width: 767px){ /*ajeitar responsividade pra celular*/
   
   #black-overlay{
@@ -996,9 +1007,10 @@ nav ul{
      height: 70%;
      margin: 0px;
   }
-  .owl-theme .owl-item div {height: 300px;}
+  /*.owl-theme .owl-item div {height: 300px;}
   .owl-theme .owl-item div img{height:210px; width: 100%;}
   .owl-theme .owl-item div .legendaequipe{position:relative;height:60px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 63px;}
+  */
   .conteudo-2{
      font-size: 13.5px;
      font-family: DidaticGothic;
@@ -1179,28 +1191,32 @@ nav ul{
   }
 }
 @media only screen and (max-width: 768px) {
-  .owl-theme .owl-item div {height: 220px;}
-  .owl-theme .owl-item div img{height:220px; width: 100%;}
+  .owl-theme .owl-item div {height: auto; width: auto;}
+  /*.owl-theme .owl-item div img{height:220px; width: 100%;}
   .owl-theme .owl-item div .legendaequipe{position:relative;height:px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 54px;}
-
+  */
 }
 @media only screen and (min-width: 470px) {
-  .owl-theme .owl-item div {height: 220px;}
+  .owl-theme .owl-item div {height: auto; width: auto;}
+  /*
   .owl-theme .owl-item div img{height:220px; width: 100%;}
   .owl-theme .owl-item div .legendaequipe{position:relative;height:72px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 76px;}
-
+  */
 }
+/*
 @media only screen and (max-width: 470px) {
   .owl-theme .owl-item div {height: 180px;}
   .owl-theme .owl-item div img{height:180px; width: 100%;}
   .owl-theme .owl-item div .legendaequipe{position:relative;height:76px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 80px;}
 
 }
+*/
 @media only screen and (max-width: 200px) {
-  .owl-theme .owl-item div {height: 180px;}
+  .owl-theme .owl-item div {height: auto; width: auto;}
+  /*
   .owl-theme .owl-item div img{height:180px; width: 100%;}
   .owl-theme .owl-item div .legendaequipe{position:relative;height:76px; width: 100%; background-color: black; opacity: 0.7; z-index: 5;bottom: 80px;}
-
+  */
 }
 
 /*FIM DA RESPONSIVIDADE DESSA BAGAÇA*/
