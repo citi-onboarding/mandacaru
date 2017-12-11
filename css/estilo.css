@@ -19,6 +19,7 @@ body{
    margin: 0px;
    width: 100%;
    height: 100%;
+   font-family: DidaticGothic;
 }
 
 .menu{
@@ -629,6 +630,47 @@ nav ul{
 .owl-carousel .owl-video-frame {position: relative; z-index: 1;}
 
 /*___________FIM DA CONFIGURAÇÃO DO CARROSSEL___________*/
+
+/*CONTATO*/
+.contato-mapa{
+  display: inline-flex;
+  background-image: url("img/contato.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: lightcoral; */
+  width: 100%;
+  height: 65%;
+  color: #f9f9f9;
+}
+
+.contato-form{
+  width: 25%;
+  display: block;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 20px;
+}
+
+.contato-form h3{
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.contato-form form{
+  
+}
+
+.adjust{
+  margin-bottom: 8.5px;
+}
+
+.mapa{
+  width: 73%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*FOOTER*/
 .footer-resp{
