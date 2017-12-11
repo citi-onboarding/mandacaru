@@ -967,7 +967,7 @@ nav ul{
     padding-left: 10px;
   }
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 385px){
   .owl-theme .owl-item div{font-size: 11.5px;}
   .legendaequipe .função{
     font-size: 10px;
