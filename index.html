@@ -27,13 +27,13 @@
 			<ul>
 				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">INÍCIO</a></li>
 
-				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">SOBRE</a></li>
+				<li class="notshowonmobile"><a class="scroll" href="#target-1" style="margin-right: 50px">SOBRE</a></li>
 				
-				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">EQUIPE</a></li>
+				<li class="notshowonmobile"><a class="scroll" href="#target-2" style="margin-right: 50px">EQUIPE</a></li>
 				
-				<li class="notshowonmobile"><a href="index.html" style="margin-right: 50px">GALERIA</a></li>
+				<li class="notshowonmobile"><a class="scroll" href="#target-3" style="margin-right: 50px">GALERIA</a></li>
 				
-				<li class="notshowonmobile" style="margin-right: 20px;"><a href="index.html">PATROCINADORES</a></li>
+				<li class="notshowonmobile" style="margin-right: 20px;"><a class="scroll" href="#target-4">PATROCINADORES</a></li>
 
 				<li class="showonmobile" style="margin-right: 20px;"><a href="javascript:void(0);" id="menumobile"><i class="material-icons">menu</i></a></li>
 			</ul>
@@ -47,7 +47,7 @@
 
 
 	<!--QUEM SOMOS-->
-	<div class="conteudo">
+	<div class="conteudo" id="target-1">
 		<h3>QUEM SOMOS</h3>
 		<p>Desde a criação em 2000, a equipe se oficializou como projeto de extensão do CTG com o objetivo de participar da competição estudantil SAE Brasil Aerodesign, que tem como principal meta o desenvolvimento de uma aeronave rádio controlada. Embora tenhamos um grande enfoque em engenharia, atualmente estudantes de toda a UFPE podem ingressar no grupo, fazendo com que a multidisciplinaridade do projeto seja constantemente incentivada e trabalhada. </p>
 		<p>A necessidade de superação constante é nossa principal motivação. Para mantermos nossa equipe em crescimento, é importante sempre propor soluções eficientes, otimizadas e criativas para desenvolver uma aeronave que cumpra os requisitos exigidos anualmente pela competição.</p>
@@ -229,7 +229,7 @@
 
 
 	<!--EQUIPE-->
-	<div class="conteudo-5">
+	<div class="conteudo-5" id="target-2">
 		<h3>EQUIPE</h3>
 		<!--Classe Owl-theme e Owl-carousel são as principais-->
 		<!--As configurações delas (para o estilo) estão no estilo.css-->
@@ -362,7 +362,7 @@
 	<!--Classes clearfix e mosaicflow são as principais-->
 	<!--Classe mosaicflow__item representa cada imagem-->
 	
-	<div class="galeria">
+	<div class="galeria" id="target-3">
 		<div class="clearfix mosaicflow">
 			
 			<div class="mosaicflow__item">
@@ -412,7 +412,7 @@
 
 
 	<!--PATROCINADORES-->
-	<div class=conteudo-6>
+	<div class=conteudo-6 id="target-4">
 		<h3>PATROCINADORES</h3>
 		<div id = "carousel2" class="owl-theme owl-carousel">
             <div class="patr">
@@ -503,6 +503,7 @@
             	<img src="css/img/logos/Voxar.png">
             </div>
 		</div>
+		<button class="button"><a href="#" target="_blank">TORNE-SE UM PATROCINADOR!</a></button>
 	</div>
 
 	<!-- CONTATO E MAPA-->
@@ -510,12 +511,13 @@
 		<div class="contato-form">
 			<h3>ENTRE EM CONTATO</h3>
 			<form>
-				<input class="adjust" type="text" name="nome" placeholder="Nome e sobrenome *" size="45" style="height: 25px;"><br>
-				<input class="adjust" type="email" name="email" placeholder="Email *" size="45" style="height: 25px;"><br>
-				<input class="adjust" type="number" name="telefone" placeholder="Telefone *" size="45" style="height: 25px;"><br>
-				<input type="text" name="mensagem" placeholder="Digite sua mensagem *" size="45" style="height: 105px;"><br>
+				<input class="adjust" type="text" name="nome" placeholder="Nome e sobrenome *"><br>
+				<input class="adjust" type="email" name="email" placeholder="Email *"><br>
+				<input class="adjust" type="number" name="telefone" placeholder="Telefone *"><br>
+				<!-- <input id="mensagem-input" type="textarea" name="mensagem" placeholder="Digite sua mensagem *"><br> -->
+				<textarea name="mensagem" placeholder="Digite sua mensagem *"></textarea>
 			</form>
-			<button>Enviar</button>
+			<button class="button-send">Enviar</button>
 		</div>
 
 		<div class="mapa">
