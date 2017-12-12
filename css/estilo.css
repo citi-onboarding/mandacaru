@@ -161,6 +161,7 @@ nav ul{
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+  margin-top: 20px;
 }
 
 .button-send{
@@ -1018,7 +1019,8 @@ textarea{
     padding-top: 7px;
     padding-bottom: 7px;
   }
-
+  .contato-form{
+  }
   .linha-footer{
     width: 100%;
     display: inline-flex;
@@ -1379,13 +1381,37 @@ textarea{
 }
 
 .navbar a:hover{
-   color: #393434;
+   color: green;
 }
 
 .navbar a:active{
    text-decoration: none;
    color: #393434;
 }
+
+.menu ul a{
+   text-decoration: none;
+   color: #393434;
+}
+
+.menu ul a:link{
+   text-decoration: none;
+   color: #393434;
+}
+
+.menu ul a:visited{
+   color: #393434;
+}
+
+.menu ul a:hover{
+   color: green;
+}
+
+.menu ul a:active{
+   text-decoration: none;
+   color: #393434;
+}
+
 
 .button a{
    text-decoration: none;
