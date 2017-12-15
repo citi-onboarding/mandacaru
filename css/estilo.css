@@ -336,6 +336,7 @@ nav ul{
  }
  .icone p{
    width: 240px;
+   text-align: justify;
  }
 .row{
    width: 100%;
@@ -575,6 +576,11 @@ nav ul{
 .owl-carousel .owl-animated-out { z-index: 1;}
 .owl-carousel .fadeOut {-webkit-animation-name: fadeOut; animation-name: fadeOut;}
 
+#carousel1 img{
+  background-size: cover;
+  background-position: center;
+}
+
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;
@@ -706,6 +712,8 @@ nav ul{
 }
 
 textarea{
+  overflow-x: hidden;
+  resize: none;
   width: 95%;
   height: 105px;
 }
